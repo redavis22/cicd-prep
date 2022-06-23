@@ -9,3 +9,6 @@ http://localhost:8080
 
 # create Dockerfile
 touch Dockerfile
+
+# build from Dockerfile
+docker image build -t helloworld:1.0 .
