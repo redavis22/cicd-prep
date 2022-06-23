@@ -12,3 +12,6 @@ touch Dockerfile
 
 # build from Dockerfile
 docker image build -t helloworld:1.0 .
+
+# run docker image
+docker container run --name helloworld -p 8080:80 helloworld:1.0
