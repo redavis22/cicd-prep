@@ -11,7 +11,7 @@ http://localhost:8080
 touch Dockerfile
 
 # build from Dockerfile
-docker image build -t helloworld:1.0 .
+docker image build -t hello-world:1.0 .
 
 # run docker image
-docker container run --name helloworld -p 8080:80 helloworld:1.0
+docker container run --name hello-world -p 8080:80 hello-world:1.0
