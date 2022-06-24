@@ -15,3 +15,7 @@ docker image build -t hello-world:1.0 .
 
 # run docker image
 docker container run --name hello-world -p 8080:80 hello-world:1.0
+
+
+# check localhost in your browser
+http://localhost:8080
