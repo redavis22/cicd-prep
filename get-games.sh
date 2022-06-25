@@ -1,3 +1,5 @@
 #!/bin/bash
 
-ls
+
+git clone https://github.com/BKcore/HexGL
+
